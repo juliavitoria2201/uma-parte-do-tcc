@@ -1,0 +1,70 @@
+ /* a cor das letras vai ser #c34d67,a cor das letras do titulo vai ser ,a cor do fundo do site vai ser #fdf4f, o cor dos botões vai ser ,a cor do menu vai ser , a cor da letra do menu vai ser #fdf4fa(talvez) */
+ 
+	h2{
+	color:#c34d67;
+	font-family: Garamond;
+}
+
+	h1 {
+	 color: red;
+ }
+
+	body {
+	background-size: 100%;
+	background-color:#fee9e8;
+}
+
+		
+	form {
+		text-align: center;
+	}
+
+	.produtos {
+    width: 530px; /* Largura do quadrado */
+    height: 415px; /* Altura do quadrado */
+    border: 1px solid #c34d67; 
+    text-align: center; /* Alinha o texto no centro */
+	background-color: white;
+	}
+	
+	.coluna{
+	 column-count: 2;
+	}
+	
+
+/* menu*/
+*, *:after ,*:before{
+	 box-sizing:border-box ;
+ }
+	.logo{
+		font-family:sans-serif;
+		line-height:1.5;
+		min-height:90vh;
+		display: flex;
+		font-size: 1.2rem;
+	}
+	a{
+		color: inherit;
+		text-decoration:none;
+		transition:0.25 ease;
+	}
+	ul{
+		display: flex;
+		flex-wrap:wrap;
+		list-style-type:none;
+	}
+	ul li{
+		margin-left:0.75em;
+		margin-right:0.75em;
+	}
+	
+	ul:hover a{
+		color:#000000;
+	}
+	ul:hover a:hover{
+		color:#c34d67;
+		box-shadow: 0 2px 0 0 currentcolor;
+	}
+	/*fim do menu*/ 
+	
+	
